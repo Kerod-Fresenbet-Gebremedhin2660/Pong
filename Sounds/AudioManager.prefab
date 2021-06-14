@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &670246938315907689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670246938315907695}
+  - component: {fileID: 670246938315907688}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &670246938315907695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670246938315907689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 263.67285, y: 161.2871, z: -40.1875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &670246938315907688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670246938315907689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e471b37c92a50f46a534bc354b767a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: paddleHit
+    clip: {fileID: 8300000, guid: c180b346974f5f94c935368050faae78, type: 3}
+    volume: 0.18
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: wallHit
+    clip: {fileID: 8300000, guid: c180b346974f5f94c935368050faae78, type: 3}
+    volume: 0.31
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: playerWin
+    clip: {fileID: 8300000, guid: b3124cb0cb2ae1f4fb4c9fa7060e29a1, type: 3}
+    volume: 0.5
+    pitch: 2
+    source: {fileID: 0}
+    loop: 0
+  - name: computerWin
+    clip: {fileID: 8300000, guid: b3124cb0cb2ae1f4fb4c9fa7060e29a1, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: playerScore
+    clip: {fileID: 8300000, guid: 64282af3be52d6c4d81abfccd651119a, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: computerScore
+    clip: {fileID: 8300000, guid: 4fe57960e2f0401409fec97434e91f76, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
